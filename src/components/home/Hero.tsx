@@ -108,11 +108,11 @@ export const Hero: React.FC<HeroProps> = ({ onSearch, onExploreCatalog }) => {
             </div>
           </div>
 
-          {/* Right Column: Hero Visual Asset */}
+          {/* Right Column: Hero Visual Asset */}s
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl group bg-slate-900">
               <img
-                src="/src/assets/images/hero_eventpass_conference_1792500747135.jpg"
+                src="/images/hero_eventpass_conference_1792500747135.jpg"
                 alt="Auditorio de conferencias tecnológicas EventPass"
                 referrerPolicy="no-referrer"
                 className="w-full h-[360px] sm:h-[420px] object-cover transition-transform duration-500 group-hover:scale-105"
